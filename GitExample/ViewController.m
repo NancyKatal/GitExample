@@ -17,10 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"");
+    lbl.text = @"";
 }
 -(IBAction)button:(id)sender;
 {
-    
+    NSLog(@"");
+
 }
 
 - (void)didReceiveMemoryWarning {

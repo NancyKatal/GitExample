@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 
 {
-    
+    IBOutlet UILabel *lbl;
 }
 -(IBAction)button:(id)sender;
 
